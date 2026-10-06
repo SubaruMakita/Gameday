@@ -1,0 +1,362 @@
+{
+  "gameInfo": {
+    "title": "⚾ 中華職棒37年季後挑戰賽",
+    "venue": "台中洲際棒球場",
+    "awayTeamKey": "lions",
+    "homeTeamKey": "brothers",
+    "currentAttackingTeam": "away",
+    "awayScore": {
+      "innings": ["0", "0", "1", "1", "2", "1", "1", "1", "1", "1"],
+      "h": "12",
+      "e": "0"
+    },
+    "homeScore": {
+      "innings": ["0", "1", "1", "0", "0", "0", "2", "1", "3", "2X"],
+      "h": "11",
+      "e": "0"
+    },
+    "bso": {
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0
+    },
+    "situation": {
+      "awayAttacking": {
+        "batter": "邱智呈",
+        "base1": "",
+        "base2": "",
+        "base3": ""
+      },
+      "homeAttacking": {
+        "batter": "詹子賢",
+        "base1": "",
+        "base2": "",
+        "base3": ""
+      }
+    }
+  },
+  "teams": {
+    "wdragons": {
+      "name": "味全龍",
+      "themeColor": "#ff5252",
+      "cardSubColor": "#ff8a80",
+      "capColor": "#8b0000",
+      "jerseyColor": "#d32f2f",
+      "pantsColor": "#263238"
+    },
+    "brothers": {
+      "name": "中信兄弟",
+      "themeColor": "#ffd600",
+      "cardSubColor": "#ffe082",
+      "capColor": "#0a1a36",
+      "jerseyColor": "#f5b800",
+      "pantsColor": "#fafafa"
+    },
+    "lions": {
+      "name": "統一獅",
+      "themeColor": "#ea5514",
+      "cardSubColor": "#ffcc80",
+      "capColor": "#1c1c1c",
+      "jerseyColor": "#ea5514",
+      "pantsColor": "#ffffff"
+    },
+    "guardians": {
+      "name": "富邦悍將",
+      "themeColor": "#004a9f",
+      "cardSubColor": "#90caf9",
+      "capColor": "#00205b",
+      "jerseyColor": "#004a9f",
+      "pantsColor": "#ffffff"
+    },
+    "monkeys": {
+      "name": "樂天桃猿",
+      "themeColor": "#bf003a",
+      "cardSubColor": "#ef9a9a",
+      "capColor": "#ffffff",
+      "jerseyColor": "#bf003a",
+      "pantsColor": "#ffffff"
+    },
+    "hawks": {
+      "name": "台鋼雄鷹",
+      "themeColor": "#004d40",
+      "cardSubColor": "#a7ffeb",
+      "capColor": "#004d40",
+      "jerseyColor": "#ffffff",
+      "pantsColor": "#ffffff"
+    }
+  },
+  "rosters": {
+    "brothers": [
+      {
+        "posCode": "P",
+        "posName": "投手",
+        "role": "pitcher",
+        "name": "羅戈",
+        "no": "32",
+        "bats": "R",
+        "order": "-",
+        "pitcherStats": {
+          "era": "3.33",
+          "whip": "1.18",
+          "win": "12",
+          "loss": "9",
+          "so": "104",
+          "bb": "42"
+        }
+      },
+      {
+        "posCode": "C",
+        "posName": "捕手",
+        "role": "fielder",
+        "name": "高宇杰",
+        "no": "65",
+        "bats": "R",
+        "order": "第 8 棒",
+        "avg": ".286",
+        "hr": "2",
+        "rbi": "32",
+        "sb": "2"
+      },
+      {
+        "posCode": "1B",
+        "posName": "一壘手",
+        "role": "fielder",
+        "name": "陳俊秀",
+        "no": "29",
+        "bats": "R",
+        "order": "第 5 棒",
+        "avg": ".252",
+        "hr": "4",
+        "rbi": "31",
+        "sb": "0"
+      },
+      {
+        "posCode": "2B",
+        "posName": "二壘手",
+        "role": "fielder",
+        "name": "岳東華",
+        "no": "98",
+        "bats": "L",
+        "order": "第 2 棒",
+        "avg": ".272",
+        "hr": "3",
+        "rbi": "35",
+        "sb": "4"
+      },
+      {
+        "posCode": "3B",
+        "posName": "三壘手",
+        "role": "fielder",
+        "name": "張士綸",
+        "no": "4",
+        "bats": "L",
+        "order": "第 4 棒",
+        "avg": ".327",
+        "hr": "2",
+        "rbi": "39",
+        "sb": "16"
+      },
+      {
+        "posCode": "SS",
+        "posName": "游擊手",
+        "role": "fielder",
+        "name": "江坤宇",
+        "no": "90",
+        "bats": "R",
+        "order": "第 9 棒",
+        "avg": ".283",
+        "hr": "2",
+        "rbi": "40",
+        "sb": "3"
+      },
+      {
+        "posCode": "LF",
+        "posName": "左外野手",
+        "role": "fielder",
+        "name": "詹子賢",
+        "no": "39",
+        "bats": "R",
+        "order": "第 1 棒",
+        "avg": ".257",
+        "hr": "2",
+        "rbi": "19",
+        "sb": "0"
+      },
+      {
+        "posCode": "CF",
+        "posName": "中外野手",
+        "role": "fielder",
+        "name": "宋晟睿",
+        "no": "88",
+        "bats": "L",
+        "order": "第 7 棒",
+        "avg": ".256",
+        "hr": "5",
+        "rbi": "34",
+        "sb": "13"
+      },
+      {
+        "posCode": "RF",
+        "posName": "右外野手",
+        "role": "fielder",
+        "name": "岳政華",
+        "no": "92",
+        "bats": "L",
+        "order": "第 6 棒",
+        "avg": ".221",
+        "hr": "6",
+        "rbi": "32",
+        "sb": "6"
+      },
+      {
+        "posCode": "DH",
+        "posName": "指定打擊",
+        "role": "dh",
+        "name": "王威晨",
+        "no": "9",
+        "bats": "R",
+        "order": "第 3 棒",
+        "avg": ".292",
+        "hr": "1",
+        "rbi": "47",
+        "sb": "6"
+      }
+    ],
+    "lions": [
+      {
+        "posCode": "P",
+        "posName": "投手",
+        "role": "pitcher",
+        "name": "布雷克",
+        "no": "50",
+        "bats": "R",
+        "order": "-",
+        "pitcherStats": {
+          "era": "1.61",
+          "whip": "0.98",
+          "win": "9",
+          "loss": "7",
+          "so": "94",
+          "bb": "17"
+        }
+      },
+      {
+        "posCode": "C",
+        "posName": "捕手",
+        "role": "fielder",
+        "name": "陳重羽",
+        "no": "65",
+        "bats": "R",
+        "order": "第 9 棒",
+        "avg": ".306",
+        "hr": "1",
+        "rbi": "26",
+        "sb": "8"
+      },
+      {
+        "posCode": "1B",
+        "posName": "一壘手",
+        "role": "fielder",
+        "name": "林培緯",
+        "no": "74",
+        "bats": "L",
+        "order": "第 4 棒",
+        "avg": ".301",
+        "hr": "14",
+        "rbi": "62",
+        "sb": "3"
+      },
+      {
+        "posCode": "2B",
+        "posName": "二壘手",
+        "role": "fielder",
+        "name": "張皓崴",
+        "no": "98",
+        "bats": "L",
+        "order": "第 8 棒",
+        "avg": ".260",
+        "hr": "6",
+        "rbi": "38",
+        "sb": "9"
+      },
+      {
+        "posCode": "3B",
+        "posName": "三壘手",
+        "role": "fielder",
+        "name": "潘傑楷",
+        "no": "35",
+        "bats": "L",
+        "order": "第 2 棒",
+        "avg": ".305",
+        "hr": "3",
+        "rbi": "42",
+        "sb": "6"
+      },
+      {
+        "posCode": "SS",
+        "posName": "游擊手",
+        "role": "fielder",
+        "name": "陳聖平",
+        "no": "90",
+        "bats": "R",
+        "order": "第 7 棒",
+        "avg": ".295",
+        "hr": "4",
+        "rbi": "44",
+        "sb": "15"
+      },
+      {
+        "posCode": "LF",
+        "posName": "左外野手",
+        "role": "fielder",
+        "name": "朱迦恩",
+        "no": "32",
+        "bats": "R",
+        "order": "第 5 棒",
+        "avg": ".288",
+        "hr": "11",
+        "rbi": "51",
+        "sb": "4"
+      },
+      {
+        "posCode": "CF",
+        "posName": "中外野手",
+        "role": "fielder",
+        "name": "陳傑憲",
+        "no": "92",
+        "bats": "L",
+        "order": "第 1 棒",
+        "avg": ".286",
+        "hr": "7",
+        "rbi": "41",
+        "sb": "18"
+      },
+      {
+        "posCode": "RF",
+        "posName": "右外野手",
+        "role": "fielder",
+        "name": "邱智呈",
+        "no": "88",
+        "bats": "L",
+        "order": "第 6 棒",
+        "avg": ".290",
+        "hr": "5",
+        "rbi": "33",
+        "sb": "19"
+      },
+      {
+        "posCode": "DH",
+        "posName": "指定打擊",
+        "role": "dh",
+        "name": "陳鏞基",
+        "no": "29",
+        "bats": "R",
+        "order": "第 3 棒",
+        "avg": ".294",
+        "hr": "8",
+        "rbi": "49",
+        "sb": "5"
+      }
+    ]
+  }
+}

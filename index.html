@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>中華職棒37年季後挑戰賽</title>
+    <link rel="stylesheet" href="./css/display.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <!-- 計分板 -->
+    <div id="scoreboard-panel">
+      <div class="sb-header">
+        <div
+          class="sb-title"
+          id="sb-title-el"
+          contenteditable="true"
+          spellcheck="false"
+        >
+          載入中...
+        </div>
+      </div>
+
+      <table class="sb-table">
+        <thead>
+          <tr id="sb-header-row">
+            <th id="sb-venue-el" style="text-align: left; padding-left: 4px">
+              --
+            </th>
+            <th class="summary-col">R</th>
+            <th class="summary-col">H</th>
+            <th class="summary-col">E</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- 客隊行 -->
+          <tr id="away-row">
+            <td style="text-align: left">
+              <input
+                type="text"
+                id="team-away-btn"
+                class="team-input"
+                value="--"
+                readonly
+              />
+            </td>
+            <td class="summary-col">
+              <input
+                type="text"
+                class="score-input score-run col-r"
+                id="away-r"
+                value="0"
+                readonly
+              />
+            </td>
+            <td class="summary-col">
+              <input
+                type="text"
+                class="score-input col-h"
+                id="away-h"
+                value="0"
+                maxlength="2"
+                readonly
+              />
+            </td>
+            <td class="summary-col">
+              <input
+                type="text"
+                class="score-input col-e"
+                id="away-e"
+                value="0"
+                maxlength="2"
+                readonly
+              />
+            </td>
+          </tr>
+          <!-- 主隊行 -->
+          <tr id="home-row">
+            <td style="text-align: left">
+              <input
+                type="text"
+                id="team-home-btn"
+                class="team-input active-team"
+                value="--"
+                readonly
+              />
+            </td>
+            <td class="summary-col">
+              <input
+                type="text"
+                class="score-input score-run col-r"
+                id="home-r"
+                value="0"
+                readonly
+              />
+            </td>
+            <td class="summary-col">
+              <input
+                type="text"
+                class="score-input col-h"
+                id="home-h"
+                value="0"
+                maxlength="2"
+                readonly
+              />
+            </td>
+            <td class="summary-col">
+              <input
+                type="text"
+                class="score-input col-e"
+                id="home-e"
+                value="0"
+                maxlength="2"
+                readonly
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- BSO 燈號 -->
+      <div class="bso-container">
+        <div class="bso-group">
+          <span class="bso-label">B</span>
+          <div class="bso-dots" id="bso-balls">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+        <div class="bso-group">
+          <span class="bso-label">S</span>
+          <div class="bso-dots" id="bso-strikes">
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+        <div class="bso-group">
+          <span class="bso-label">O</span>
+          <div class="bso-dots" id="bso-outs">
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 彈跳球員資訊卡片 -->
+    <div id="player-card">
+      <div class="card-header">
+        <div>
+          <div class="card-name-wrap">
+            <span class="card-name" id="p-name">--</span>
+            <span class="card-number-inline" id="p-no">No. 00</span>
+          </div>
+          <div class="card-pos" id="p-pos">--</div>
+        </div>
+        <div class="card-order" id="p-order">第 0 棒</div>
+      </div>
+      <div class="card-stats" id="stats-container"></div>
+    </div>
+
+    <div id="canvas-container"></div>
+    <script type="module" src="./js/gameData.js"></script>
+  </body>
+</html>
